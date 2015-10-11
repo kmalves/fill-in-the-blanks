@@ -1,4 +1,3 @@
-
 segment_1 = '''Winter is the coldest season of the year in polar and temperate
 climates, between autumn and spring. Winter is caused by the axis of the
 Earth in that hemisphere being oriented away from the Sun. Different cultures
@@ -27,9 +26,6 @@ be readily observed and counted. In 1967 the second was redefined as the
 time required for 9,192,631,770 of these vibrations.'''
 segment_full = [segment_1, segment_2, segment_3]
 
-#Lists of target words(blanks) from the text segments are stored in the "substitute_words" variable
-#with a number corresponding to the number of each text segment and then stored in the "substitute_words_full" list.
-#Important! The order of the words in each list should be as they apprear in the text segment.
 substitute_words_1 = ['season', 'spring', 'summer', 'solstice']
 substitute_words_2 = ['viruses', 'deoxyribonucleic', 'carbohydrates', 'chromosomes']
 substitute_words_3 = ['second', '1/86,400', 'atom', '9,192,631,770']
