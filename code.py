@@ -1,12 +1,4 @@
-segment_1 = '''Winter is the coldest season of the year in polar and temperate
-climates, between autumn and spring. Winter is caused by the axis of the
-Earth in that hemisphere being oriented away from the Sun. Different cultures
-define different dates as the start of winter, and some use a definition
-based on weather. When it is winter in the Northern Hemisphere it is summer
-in the Southern Hemisphere, and vice versa. In many regions, winter is associated
-with snow and freezing temperatures. The moment of winter solstice is when
-the sun's elevation with respect to the North or South Pole is at its most negative
-value.'''
+segment_1 = '''Winter is the coldest season of the year in polar and temperate climates, between autumn and spring. Winter is caused by the axis of the Earth in that hemisphere being oriented away from the Sun. Different cultures define different dates as the start of winter, and some use a definition based on weather. When it is winter in the Northern Hemisphere it is summer in the Southern Hemisphere, and vice versa. In many regions, winter is associated with snow and freezing temperatures. The moment of winter solstice is when the sun's elevation with respect to the North or South Pole is at its most negative value.'''
 segment_2 = '''A molecule that carries most of the genetic instructions used
 in the development, functioning and reproduction of all known living
 organisms and many viruses is called deoxyribonucleic acid or DNA.
@@ -62,8 +54,7 @@ def play(substitute_words, blank_segment):
     return blank_segment   
 
 #Beginning of the game where a player is prompted to select their desired level.
-print '''Welcome! Read the text below and fill in the blanks. To start playing choose your difficulty
-level from easy, medium or hard using numbers 1, 2 or 3. Have fun!'''
+print '''Welcome! Read the text below and fill in the blanks. To start playing choose your difficulty level from easy, medium or hard using numbers 1, 2 or 3. Have fun!'''
 print ' '
 user_input = raw_input('Please enter your level:' + ' ')
 levels = ['1', '2', '3']
