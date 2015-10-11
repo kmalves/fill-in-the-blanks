@@ -31,7 +31,6 @@ substitute_words_2 = ['viruses', 'deoxyribonucleic', 'carbohydrates', 'chromosom
 substitute_words_3 = ['second', '1/86,400', 'atom', '9,192,631,770']
 substitute_words_full = [substitute_words_1, substitute_words_2, substitute_words_3]
 
-#A list of "blanks".
 blank_list = ['_1_', '_2_', '_3_', '_4_']
 
 def segment_with_blanks (substitute_words, segment):
