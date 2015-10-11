@@ -1,8 +1,4 @@
-#Hello! My game consists of 3 levels depending on the complexity of the text. Each level is represented by a text segment with 4 blanks to fill.
-#I structured the code so it can be easily modified for more blanks or levels.
 
-#Each text segment is stored in the "segment" variable with a number indicating the complexity level and
-#those variables are stored in the "segment_full" list.
 segment_1 = '''Winter is the coldest season of the year in polar and temperate
 climates, between autumn and spring. Winter is caused by the axis of the
 Earth in that hemisphere being oriented away from the Sun. Different cultures
